@@ -9,7 +9,7 @@ A Lightweight Theme Engine, completely written in Swift!
 DESC
 
 s.homepage         = 'https://www.twitter.com/atticmanatee'
-s.license          = { :type => 'MIT', :file => 'LICENSE' }
+s.license          = { :type => 'CC0', :file => 'LICENSE' }
 s.author           = { 'Joao Pires' => 'atticmanatee@gmail.com' }
 s.source           = { :git => 'https://github.com/atticmanatee/AMThemed.git', :tag => s.version.to_s }
 
