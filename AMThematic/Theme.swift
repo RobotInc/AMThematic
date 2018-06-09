@@ -8,7 +8,7 @@
 import UIKit
 
 public class Theme {
-    static let defaultTheme:Theme = Theme(
+    static public let defaultTheme:Theme = Theme(
         colors: [ThemeReference.colorBackground.description: UIColor.white,
                  ThemeReference.colorPrimary.description: UIColor.black,
                  ThemeReference.colorAccent.description: UIColor.blue,
@@ -25,7 +25,7 @@ public class Theme {
                 ThemeReference.fontTextNormalAlternative.description: UIFont.systemFont(ofSize: 14)]
     )
     
-    static let darkTheme: Theme = Theme(
+    static public let darkTheme: Theme = Theme(
         colors: [ThemeReference.colorBackground.description: UIColor.black,
                  ThemeReference.colorPrimary.description: UIColor.white,
                  ThemeReference.colorAccent.description: UIColor.orange,
@@ -53,7 +53,7 @@ public class Theme {
     }
     
     // MARK: - Public Methods
-    func getColor(for element: String) -> UIColor? {
+    open func getColor(for element: String) -> UIColor? {
         var requestedColor: UIColor?
         for (key, value) in colors {
             if key == element {

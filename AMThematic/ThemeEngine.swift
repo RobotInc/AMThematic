@@ -8,7 +8,7 @@
 import UIKit
 
 public class ThemeEngine {
-    static var Motor = ThemeEngine()
+    static public var Motor = ThemeEngine()
     
     // MARK: - Properties
     private var isInitialized: Bool = false
