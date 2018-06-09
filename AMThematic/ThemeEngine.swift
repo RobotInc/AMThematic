@@ -7,7 +7,7 @@
 
 import UIKit
 
-open class ThemeEngine {
+public class ThemeEngine {
     static var Motor = ThemeEngine()
     
     // MARK: - Properties
