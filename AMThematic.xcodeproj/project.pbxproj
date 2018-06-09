@@ -10,6 +10,8 @@
 		CFD8991220CBDFFD00631976 /* AMThematic.h in Headers */ = {isa = PBXBuildFile; fileRef = CFD8991020CBDFFD00631976 /* AMThematic.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CFD8991A20CBE01900631976 /* ThemeEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD8991820CBE01900631976 /* ThemeEngine.swift */; };
 		CFD8991B20CBE01900631976 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD8991920CBE01900631976 /* Theme.swift */; };
+		CFD8991D20CBE7FC00631976 /* AMThematic.podspec in Resources */ = {isa = PBXBuildFile; fileRef = CFD8991C20CBE7FC00631976 /* AMThematic.podspec */; };
+		CFD8991F20CBE96700631976 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = CFD8991E20CBE96700631976 /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +20,8 @@
 		CFD8991120CBDFFD00631976 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CFD8991820CBE01900631976 /* ThemeEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeEngine.swift; sourceTree = "<group>"; };
 		CFD8991920CBE01900631976 /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		CFD8991C20CBE7FC00631976 /* AMThematic.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AMThematic.podspec; sourceTree = "<group>"; };
+		CFD8991E20CBE96700631976 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +40,8 @@
 			children = (
 				CFD8990F20CBDFFD00631976 /* AMThematic */,
 				CFD8990E20CBDFFD00631976 /* Products */,
+				CFD8991C20CBE7FC00631976 /* AMThematic.podspec */,
+				CFD8991E20CBE96700631976 /* LICENSE */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +133,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFD8991F20CBE96700631976 /* LICENSE in Resources */,
+				CFD8991D20CBE7FC00631976 /* AMThematic.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -3,7 +3,6 @@
 //  AMThematic
 //
 //  Created by Joao Pires on 09/06/2018.
-//  Copyright © 2018 Joao Pires. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
